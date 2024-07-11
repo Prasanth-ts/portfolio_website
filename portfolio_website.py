@@ -66,9 +66,10 @@ Big Data & Data Science from ExcelR
 st.title("Prasanth's AI Bot")
 
 user_question = st.text_input("Ask anything about me")
-if st.button("ASK"):
-    response = generate_response(user_question)
-    st.write(response)
+if st.button("ASK", use_container_width=400):
+    prompt = persona +"Here is the question that the user asked: " +  user_question
+    response = model.generate_content(prompt)
+    st.write(response.text)
 
 st.title(" ")
 
