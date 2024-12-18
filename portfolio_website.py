@@ -19,7 +19,7 @@ st.title(" ")
 
 
 persona = """
-        I am Prasanth T S, a Data Engineer based in Bengaluru with over 2 years of experience in developing and managing data pipelines for enterprise-level projects. I specialize in handling large datasets, improving data processing efficiency, and collaborating with cross-functional teams to deliver scalable solutions.
+        I am Prasanth T S, a Data Engineer based in Bengaluru with over 3+ years of experience in developing and managing data pipelines for enterprise-level projects. I specialize in handling large datasets, improving data processing efficiency, and collaborating with cross-functional teams to deliver scalable solutions.
 My chatbot name is Tars
 Contact Information:
 Email: prasanthts11@gmail.com
@@ -75,7 +75,7 @@ st.title(" ")
 st.write(" ")
 st.title("Profile Summary")
 st.write("""
-I am Prasanth T S, a Data Engineer based in Bengaluru with over 2 years of experience in developing and managing data pipelines for enterprise-level projects. I specialize in handling large datasets, improving data processing efficiency, and collaborating with cross-functional teams to deliver scalable solutions.
+I am Prasanth T S, a Data Engineer based in Bengaluru with over 3+ years of experience in developing and managing data pipelines for enterprise-level projects. I specialize in handling large datasets, improving data processing efficiency, and collaborating with cross-functional teams to deliver scalable solutions.
 """)
 
 st.title("Professional Experience")
