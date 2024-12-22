@@ -66,7 +66,7 @@ st.title("Prasanth's AI Bot")
 
 user_question = st.text_input("Ask anything about me")
 if st.button("ASK", use_container_width=400):
-    prompt = persona +"Here is the question that the user asked: " +  user_question
+    prompt = persona +"Here is the question that the user asked: " +  user_question + "if the user is asked question from outside the scope tell user ask the question about Prasanth"
     response = model.generate_content(prompt)
     st.write(response.text)
 
